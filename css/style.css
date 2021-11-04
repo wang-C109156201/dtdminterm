@@ -111,6 +111,10 @@ ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
     display: block;
     background-color: #f0f5d6;
 }
+.img-model{
+    display: flex;
+    justify-content: space-between;
+}
 .box-b{
     display:flex;
     /*justify-content: space-between;*/
