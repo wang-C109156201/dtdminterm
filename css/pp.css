@@ -128,7 +128,6 @@ ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
     margin-left: 10px;
     margin-bottom: 100px;
     margin-top: 50px;
-    
 }
 h4{
     margin-left: 10px;
@@ -141,11 +140,15 @@ h4{
     gap: 72px;
 }
 .price{
-    background-color: rgb(238, 238, 238);
-    font-size: 24px;
+    background-color: #ebf0d7;
+    font-size: 17px;
     display: flex;
     justify-content: center;
     text-align: center;
+}
+.dd{
+    display: flex;
+    justify-content: center;
 }
 footer{
     background-color: rgba(87, 48, 24, 0.801);
