@@ -5,12 +5,16 @@ html{
   *,*::before,*::after{
       box-sizing: inherit;
   }
-  body{
-    background-color: #f2edc5;
-    width: 1260px;
+body{
     height: 1000px;
     margin:0 auto;
     font-family:Arial;
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
 }
 .btn_box{
     height: 25px;

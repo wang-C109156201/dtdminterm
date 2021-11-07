@@ -21,5 +21,4 @@ $(document).ready(function () {
     }
     obj.src=arr[curIndex];
     }
-    <img id ="obj" src ="推薦.jpg" border ="0" />
 });
