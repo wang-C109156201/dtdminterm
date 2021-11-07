@@ -6,24 +6,15 @@ html{
       box-sizing: inherit;
   }
 body{
+    background-color: #f7f4d7;
+    width: 1260px;
     height: 1000px;
     margin:0 auto;
     font-family:Arial;
 }
-
-
 header{
     display: flex;
     justify-content: center;
-}
-.btn_box{
-    height: 25px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #778A50;
-    border-radius: 3px;
-    border:solid 1px #778A50;
-    background-color: #f2edc5;
 }
 .img-command{
     width: 1270px;
@@ -49,7 +40,7 @@ nav{
     line-height: 44px;
     color: rgba(87, 48, 24,0.801);
     text-decoration:none;
-    background-color: #f2edc5;
+    background-color: #f7f4d7;
     /*border:2px solid rgba(87, 48, 24,0.801);
     border-radius: 3px;*/
 }
@@ -117,7 +108,30 @@ ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
 }
 .img-model{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
+    margin-bottom: 50px;
+    margin-left:15px;
+    margin-top: 50px;
+}
+.shopping{
+    display: flex;
+    justify-content: center;
+}
+.shoppingone{
+    display: flex;
+    justify-content: center;
+}
+.shoppingtwo{
+    color: #604423;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.shoppingone ol li{
+    color: #604423;
+    font-family:Arial;
+    font-size: 20px;
 }
 .box-b{
     display:flex;
@@ -131,13 +145,7 @@ ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
     display: flex;
     padding-right: 1000px;
     color: black;
-}
-.box{
-    display:flex;
-    justify-content: space-between;
-    height: 300px;
-    flex-direction:row;
-    
+    margin-left: 15px;
 }
 .box ul{
     font-size: 18px;
@@ -148,7 +156,6 @@ ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
     display: flex;
     /*justify-content: space-between;*/
     flex-direction: column;
-    
 }
 
 footer{

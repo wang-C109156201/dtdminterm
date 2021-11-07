@@ -5,21 +5,16 @@ html{
   *,*::before,*::after{
       box-sizing: inherit;
   }
-  body{
-    background-color: #f2edc5;
+body{
+    background-color: #f7f4d7;
     width: 1260px;
     height: 1000px;
     margin:0 auto;
     font-family:Arial;
 }
-.btn_box{
-    height: 25px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #778A50;
-    border-radius: 3px;
-    border:solid 1px #778A50;
-    background-color: #f2edc5;
+header{
+    display: flex;
+    justify-content: center;
 }
 .img-command{
     width: 1270px;
@@ -27,7 +22,7 @@ html{
 h1{
     font-size: 44px;
     font-weight: 600;
-    font-family: 'Arial';
+    font-family: Arial;
     text-align:center;
     color: rgb(87, 48, 24,0.801);
 }
@@ -45,7 +40,7 @@ nav{
     line-height: 44px;
     color: rgba(87, 48, 24,0.801);
     text-decoration:none;
-    background-color: #f2edc5;
+    background-color: #f7f4d7;
     /*border:2px solid rgba(87, 48, 24,0.801);
     border-radius: 3px;*/
 }
@@ -129,19 +124,28 @@ ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
     display: flex;
     flex-direction: row;
     gap:95px;
-    margin-left: 163px;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    
 }
 h4{
     margin-left: 10px;
 }
-.socail{
-    width: 1000px;
+.model-img{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 62px;
-    font-family:Helvetica;
-    margin-left: 200px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    gap: 72px;
+}
+.price{
+    background-color: rgb(238, 238, 238);
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 footer{
     background-color: rgba(87, 48, 24, 0.801);
@@ -151,6 +155,6 @@ footer{
     line-height: 60px;
     color: #EDF2C5;
     font-size: 12px;
-    margin-top: 750px;
+    margin-top: 200px;
 
 }

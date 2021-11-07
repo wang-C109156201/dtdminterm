@@ -5,21 +5,16 @@ html{
   *,*::before,*::after{
       box-sizing: inherit;
   }
-  body{
-    background-color: #f2edc5;
+body{
+    background-color: #f7f4d7;
     width: 1260px;
     height: 1000px;
     margin:0 auto;
     font-family:Arial;
 }
-.btn_box{
-    height: 25px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #778A50;
-    border-radius: 3px;
-    border:solid 1px #778A50;
-    background-color: #f2edc5;
+header{
+    display: flex;
+    justify-content: center;
 }
 .img{
     width: 100px;
@@ -46,7 +41,7 @@ nav{
     line-height: 44px;
     color: rgba(87, 48, 24,0.801);
     text-decoration:none;
-    background-color: #f2edc5;
+    background-color: #f7f4d7;
     /*border:2px solid rgba(87, 48, 24,0.801);
     border-radius: 3px;*/
 }
@@ -143,6 +138,58 @@ ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
     flex-direction: column;
     
 }
+.img{
+    width: 500px;
+    height: 500px;
+}
+.title{
+    margin-left: 50px;
+    padding-right: 10px;
+    display: flex;
+    
+}
+.trademark{
+  
+    display:flex;
+    justify-content: space-between;
+    height: 500px;
+    flex-direction:row;
+    margin-bottom: 50px;
+    
+   
+}
+.trademark-content{
+    display: flex;
+    width:600px;
+    padding: 15px;
+    gap: 60px;
+    flex-direction:column;
+    font-size: 28px;
+    line-height: 40px;
+
+   
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}.trademark-img{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.socail{
+    display:flex;
+    justify-content: space-around;
+    height: 110px;
+    flex-direction:row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
 
 footer{
     background-color: rgba(87, 48, 24, 0.801);
