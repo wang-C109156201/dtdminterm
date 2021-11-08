@@ -45,6 +45,29 @@ nav{
     /*border:2px solid rgba(87, 48, 24,0.801);
     border-radius: 3px;*/
 }
+.nav-word1{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgba(87, 48, 24,0.801);
+    text-decoration:none;
+    background-color: #f7f4d7;
+    /*border:2px solid rgba(87, 48, 24,0.801);
+    border-radius: 3px;*/
+}
+.nav-word2{
+    font-size: 18px;
+    font-weight:400;
+    line-height: 50px;
+    color: #f7f4d7;
+    position: absolute;
+    top: 25px;
+    left: 30px;
+    right: 30px;
+    /*border:2px solid rgba(87, 48, 24,0.801);
+    border-radius: 3px;*/
+}
 .nav-word:hover{
     font-size: 20px;
     font-weight: 400;
@@ -57,6 +80,14 @@ nav{
     height: 3px;
     background-color:rgba(87, 48, 24,0.801);
     position: relative;
+}
+.line1{
+    width: 360px;
+    height: 1.5px;
+    background-color:rgba(87, 48, 24,0.801);
+    position: absolute;
+    left: 580px;
+
 }
 ul{
     margin: 0;
@@ -107,6 +138,32 @@ ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
     display: block;
     background-color: #f0f5d6;
 }
+.pw{
+    display: flex;
+    justify-content: center;
+}
+#talkbubble {
+    width: 700px;
+    height: 300px;
+    background: #865e13de;
+    position: absolute;
+    top: 500px;
+    left: 650px;
+    -moz-border-radius:    10px;
+    -webkit-border-radius: 10px;
+    border-radius:         10px;
+}
+#talkbubble:before {
+    content:"";
+    position: absolute;
+    right: 100%;
+    top: 200px;
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-right: 70px solid #865e13de;
+    border-bottom: 13px solid transparent;
+}
 .box-b{
     display:flex;
     /*justify-content: space-between;*/
@@ -139,35 +196,20 @@ ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
     
 }
 .img{
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
 }
 .title{
     margin-left: 50px;
     padding-right: 10px;
     display: flex;
-    
 }
 .trademark{
-  
     display:flex;
     justify-content: space-between;
     height: 500px;
     flex-direction:row;
-    margin-bottom: 50px;
-    
-   
-}
-.trademark-content{
-    display: flex;
-    width:600px;
-    padding: 15px;
-    gap: 60px;
-    flex-direction:column;
-    font-size: 28px;
-    line-height: 40px;
-
-   
+    /*margin-bottom: 50px;   */
 }
 h2{
     display: flex;
@@ -180,17 +222,12 @@ h2{
 }
 .socail{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 110px;
     flex-direction:row;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
-
-
-
-
 footer{
     background-color: rgba(87, 48, 24, 0.801);
     width: 100%;
