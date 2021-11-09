@@ -85,8 +85,8 @@ nav{
     width: 360px;
     height: 1.5px;
     background-color:rgba(87, 48, 24,0.801);
-    position: absolute;
-    left: 800px;
+    position: relative;
+    left: 400px;
 
 }
 ul{
@@ -146,9 +146,9 @@ ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
     width: 700px;
     height: 300px;
     background: #865e13de;
-    position: absolute;
-    top: 600px;
-    left: 750px;
+    position: relative;
+    top: 70px;
+    left: 10px;
     -moz-border-radius:    10px;
     -webkit-border-radius: 10px;
     border-radius:         10px;
