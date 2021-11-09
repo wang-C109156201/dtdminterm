@@ -147,7 +147,7 @@ ul.drop-down-menu li:hover > ul { /* 滑鼠滑入展開次選單*/
     height: 300px;
     background: #865e13de;
     position: absolute;
-    top: 550px;
+    top: 10px;
     left: 650px;
     -moz-border-radius:    10px;
     -webkit-border-radius: 10px;
